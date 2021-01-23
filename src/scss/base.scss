@@ -1,0 +1,43 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: $darkgrey;
+  color: $white;
+}
+
+.row {
+  display: flex;
+}
+
+.steps {
+  float: left;
+  margin-right: 1em;
+}
+
+.card {
+  width: 4px;
+  height: 4px;
+  // border: 1px solid $white;
+
+  &--front {
+    background-color: $purple;
+  }
+
+  &--back {
+    background-color: $lightgrey;
+  }
+}
+
+#chart {
+  max-width: 100vw;
+}

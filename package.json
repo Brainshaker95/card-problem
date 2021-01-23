@@ -1,0 +1,33 @@
+{
+  "name": "card-problem",
+  "version": "1.0.0",
+  "description": "A visualizer for card problem (The Flippin' Coins Problem) results",
+  "author": "Patrick Rupp",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack",
+    "serve": "webpack-dev-server --serve --host 0.0.0.0 --port 80",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "plotly.js-dist": "^1.58.4"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-string-replace-plugin": "^1.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
